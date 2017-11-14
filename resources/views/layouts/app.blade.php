@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Ahelos">
     <meta name="keywords" content="Ahelos, IT">
-    <meta name="author" content="Antonio Pauletich">
+    <meta name="author" content="Antonio Pauletich, Mario Šunc">
     <meta name="application-name" content="Ahelos">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=m2drEWAMa3">
     <link rel="icon" type="image/png" href="/favicon-32x32.png?v=m2drEWAMa3" sizes="32x32">

@@ -23,6 +23,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
+Route::get('donate-with-paypal', ['as' => 'donate-with-paypal', 'uses' => 'PayPalController@donateWithPayPal']);
+Route::post('paypal', ['as' => 'donate', 'uses' => 'PayPalController@store']);
+Route::get('paypal', ['as' => 'payment.status', 'uses' => 'PayPalController@getPaymentStatus']);
+
 Route::get('/order', ['as' => 'user.orders.show', 'uses' => 'HomeController@orders_data']);
 Route::get('/order/{order}', ['as' => 'user.order.show', 'uses' => 'OrderController@show']);
 Route::get('/order/{order}/data', ['as' => 'user.order.get_data', 'uses' => 'OrderController@order_data']);

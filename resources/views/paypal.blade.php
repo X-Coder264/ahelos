@@ -8,23 +8,23 @@
 
             <div class="col-md-8 col-md-offset-2">
 
+                @if(session('success'))
+
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+
+                @endif
+
+                @if(session('error'))
+
+                    <div class="alert alert-danger">
+                        {{ session('error') }}
+                    </div>
+
+                @endif
+
                 <div class="panel panel-default">
-
-                    @if(session('success'))
-
-                        <div class="alert alert-success">
-                            {{ session('success') }}
-                        </div>
-
-                    @endif
-
-                    @if(session('error'))
-
-                        <div class="alert alert-danger">
-                            {{ session('error') }}
-                        </div>
-
-                    @endif
 
                     <div class="panel-heading">Donacije (PayPal)</div>
 

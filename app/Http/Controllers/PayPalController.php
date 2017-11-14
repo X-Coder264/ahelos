@@ -115,7 +115,7 @@ class PayPalController extends Controller
             }
         }
 
-        // add payment ID, service ID, and user ID to session
+        // add payment ID to the session
         Session::put('paypal_payment_id', $payment->getId());
 
         if (isset($redirect_url)) {

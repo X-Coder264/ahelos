@@ -42,6 +42,8 @@ class RegisterController extends Controller
      */
     protected $redirectTo = '/login';
 
+    protected $redirectAfterVerification = '/login';
+
     /**
      * Create a new controller instance.
      */

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('styles')
-<link rel="stylesheet" type="text/css" href="/assets/css/sweetalert.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/sweetalert2.min.css">
 @endsection
 
 @section('navigation')
@@ -87,7 +87,7 @@
 @endsection
 
 @section('scripts')
-<script src="/assets/js/sweetalert.min.js"></script>
+<script src="/assets/js/sweetalert2.min.js"></script>
 <script>
     jQuery(document).ready(function($){
         $("form#edit-password").submit(function( event ) {

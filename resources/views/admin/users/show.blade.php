@@ -12,7 +12,6 @@
     <link href="{{ asset('assets/vendors/x-editable/css/bootstrap-editable.css') }}" rel="stylesheet"/>
     <link href="{{ asset('assets/css/user_profile.css') }}" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/datatables/css/dataTables.bootstrap.css') }}" />
-    <link href="{{ asset('assets/css/tables.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('assets/css/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
 @stop
 

@@ -2,7 +2,6 @@
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/datatables/css/dataTables.bootstrap.css') }}" />
-<link href="{{ asset('assets/css/pages/tables.css') }}" rel="stylesheet" type="text/css" />
 @endsection
 
 @section('navigation')

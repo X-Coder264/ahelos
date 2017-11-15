@@ -285,7 +285,7 @@ class UsersController extends Controller
             })->addColumn('actions', function(Order $order) {
                 $actions = '<a href='. route('admin.user.order.show', ['order' => $order]) .'><i class="livicon" data-name="edit" data-size="18" data-loop="true" data-c="#428BCA" data-hc="#428bca" title="Pregledaj narudžbu"></i></a>';
                 return $actions;
-            })->make(true);
+            })->rawColumns(['actions'])->make(true);
 
     }
 

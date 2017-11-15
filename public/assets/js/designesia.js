@@ -313,7 +313,7 @@ jQuery(document).ready(function() {
          * We use the scroll functionality again, some array creation and 
          * manipulation, class adding and class removing, and conditional testing
          */
-        var aChildren = jQuery("nav li").children(); // find the a children of the list items
+        var aChildren = jQuery("nav li").children() - 1; // find the a children of the list items
         var aArray = []; // create the empty aArray
         for (var i=0; i < aChildren.length; i++) {    
             var aChild = aChildren[i];

@@ -55,16 +55,30 @@
                     <ul class="dropdown-menu">
                         <!-- Menu Body -->
                         <li>
+                            <a href="{{ URL::to('/') }}">
+                                <i class="livicon" data-name="home" data-s="18"></i>
+                                Ahelos - početna stranica
+                            </a>
+                        </li>
+                        <li role="presentation"></li>
+                        <li>
+                            <a href="{{ URL::to('/home') }}">
+                                <i class="livicon" data-name="desktop" data-s="18"></i>
+                                Ahelos - stranica korisnika
+                            </a>
+                        </li>
+                        <li role="presentation"></li>
+                        <li>
                             <a href="{{ URL::to('/profile') }}">
                                 <i class="livicon" data-name="user" data-s="18"></i>
-                                My Profile
+                                Profil
                             </a>
                         </li>
                         <li role="presentation"></li>
                         <li>
                             <a href="{{ URL::to('/settings') }}">
                                 <i class="livicon" data-name="gears" data-s="18"></i>
-                                Account Settings
+                                Postavke
                             </a>
                         </li>
                         <!-- Menu Footer-->
@@ -72,7 +86,7 @@
                             <div>
                                 <a href="{{ url('/logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                     <i class="livicon" data-name="sign-out" data-s="18"></i>
-                                    Logout
+                                    Odjava
                                 </a>
                                 <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">{{ csrf_field() }}</form>
                             </div>

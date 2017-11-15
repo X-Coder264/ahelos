@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="/assets/css/plugin.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/color-orange.css" type="text/css">
-    <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="/assets/fonts/css/font-awesome.css" type="text/css">
     @yield('styles')
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>

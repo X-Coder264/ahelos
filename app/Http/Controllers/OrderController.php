@@ -150,7 +150,7 @@ class OrderController extends Controller
                 return $order->created_at->format('d.m.Y. H:i:s') . " (" . $order->created_at->diffForHumans() . ")";
             })
             ->addColumn('actions', function(Order $order) {
-                $actions = '<a href='. route('admin.user.order.show', ['order' => $order]) .'><i class="livicon" data-name="edit" data-size="18" data-loop="true" data-c="#428BCA" data-hc="#428bca" title="Pregledaj narudžbu"></i></a>';
+                $actions = '<a href='. route('admin.user.order.show', ['order' => $order]) .'><i class="livicon" data-name="edit" data-size="18" data-loop="true" data-c="#428BCA" data-hc="#428BCA" title="Pregledaj narudžbu"></i></a>';
                 return $actions;
             })
             ->rawColumns(['actions'])

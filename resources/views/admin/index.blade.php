@@ -92,7 +92,7 @@
                 "order": [[ 5, "desc" ]],
                 "lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "Sve narudžbe"] ],
                 "rowCallback": function ( row, data ) {
-                    if ( data.read_by_admin == 0 ){ $('td', row).css('background-color', '#DB5E47');}
+                    if ( data.read_by_admin == 0 ){ $('td', row).css('background-color', '#BBBBBB');}
                 }
             });
 

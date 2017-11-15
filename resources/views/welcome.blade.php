@@ -22,7 +22,7 @@
                         <div><input style="color:white !important;" type='email' name='sender_email' class="form-control" placeholder="Vaša e-mail adresa" required></div>
                         <div><input type='text' name='subject' class="form-control" placeholder="Naslov" required></div>
                         <div><textarea name='message' id='message' class="form-control" placeholder="Tekst poruke" required></textarea></div>
-                        <div class="g-recaptcha" data-theme="dark" data-sitekey="6LeQBQkUAAAAAALuIQVKFde-LJDXCwKir_01UiGR"></div><br>
+                        <div class="g-recaptcha" data-theme="dark" data-sitekey="6Lda4TgUAAAAAACDuNOjVJxFGA3EkUnKy2bl_Ymk"></div><br>
                         <div><input type='submit' id="submit" value='Pošalji' class="btn btn-primary"></div>
                     </form>
                 </div>
